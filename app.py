@@ -58,11 +58,18 @@ except Exception as e:
     print(f"Error connecting to Firebase: {e}")
     db = None
 
+st.set_page_config(
+        page_title="이기릿 채널 이벤트",
+        page_icon="🎁",
+        layout="centered"
+)
+
 # -----------------------
 # 3. Streamlit App
 # -----------------------
 def main():
     st.title("이기릿 채널 증정 이벤트!")
+
 
     # Keep track of user session
     if "user" not in st.session_state:
