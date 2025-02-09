@@ -173,7 +173,7 @@ def main():
         
     with col2:
         st.markdown("### 갤럭시 리뷰 영상!")
-        st.video("https://youtu.be/5TomH-UUZGQ")
+        st.video("https://youtu.be/N37-OCGEdRI")
 
     
     # go to vote
